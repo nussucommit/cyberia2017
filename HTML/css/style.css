@@ -152,6 +152,12 @@ a:focus {
   outline: none;
 }
 
+/* Justify */
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 /*----------------------------------
   Selection
 ------------------------------------*/
