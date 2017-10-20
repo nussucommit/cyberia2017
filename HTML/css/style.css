@@ -139,12 +139,12 @@ p {
 
 /* Links */
 a {
-  color: #13b1cd;
+  color: #c81a19;
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  color: #1095ac;
+  color: #e68d8c;
   text-decoration: none;
 }
 
@@ -303,31 +303,31 @@ fieldset[disabled] .s-btn {
 }
 
 .s-btn--primary-bg {
-  color: #fff;
-  background: #13b1cd;
+  color: #fff; /* button colour */
+  background: #c81a19; /* button colour */
   border-width: 0.0625rem;
   border-style: solid;
-  border-color: #13b1cd;
+  border-color: #c81a19; /* button colour */
 }
 
 .s-btn--primary-bg:focus, .s-btn--primary-bg:hover {
-  color: #fff;
-  background: #13b1cd;
-  border-color: #13b1cd;
+  color: #c81a19; /* button colour */
+  background: #e68d8c; /* button colour */
+  border-color: #e68d8c; /* button colour */
 }
 
 .s-btn--primary-brd {
-  color: #13b1cd;
+  color: #c81a19; /* button 2 colour */
   background: transparent;
   border-width: 0.0625rem;
   border-style: solid;
-  border-color: #13b1cd;
+  border-color: #c81a19; /* button 2 colour */
 }
 
 .s-btn--primary-brd:focus, .s-btn--primary-brd:hover {
-  color: #fff;
-  background: #13b1cd;
-  border-color: #13b1cd;
+  color: #000000; /* button 2 colour */
+  background: #fff;
+  border-color: #fff; /* button 2 colour */
 }
 
 .s-btn-icon--white-brd {
@@ -712,19 +712,19 @@ fieldset[disabled] .s-btn {
 
 /* Styles
 ------------------------------ */
-.s-icon--white-brd {
-  color: #fff;
+.s-icon--red-brd {
+  color: #c81a19;
   background: transparent;
   border-width: 0.0625rem;
   border-style: solid;
-  border-color: #fff;
+  border-color: #c81a19;
   line-height: 1.4;
 }
 
-.s-icon--white-brd:focus, .s-icon--white-brd:hover {
-  color: #fff;
-  background: #13b1cd;
-  border-color: #13b1cd;
+.s-icon--red-brd:focus, .s-icon--red-brd:hover {
+  color: #c81a19;
+  background: #e68d8c;
+  border-color: #e68d8c;
 }
 
 .s-icon--white-bg {
@@ -1245,7 +1245,7 @@ fieldset[disabled] .s-btn {
   bottom: auto;
   width: 1.375rem;
   height: 0.0625rem;
-  background: #fff;
+  background: #c81a19; /* header icon */
   -webkit-transform: translate3d(-50%, -50%, 0);
   transform: translate3d(-50%, -50%, 0);
   transition-duration: 500ms;
@@ -1345,7 +1345,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header-bg-overlay.-is-open {
-  background: rgba(34, 35, 36, 0.99);
+  background: rgba(34, 35, 36, 0.99); /* navbar menu colour change */
   visibility: visible;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1394,7 +1394,7 @@ fieldset[disabled] .s-btn {
   display: inline-block;
   font-size: 1.25rem;
   font-weight: 300;
-  color: #fff;
+  color: #fff; /* menu links to pages */
   opacity: .85;
   padding: .3125rem;
   transition-duration: 300ms;
@@ -1412,7 +1412,7 @@ fieldset[disabled] .s-btn {
   right: -2.5rem;
   width: 2.1875rem;
   height: 0.0625rem;
-  background: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0); /* menu links to pages */
   content: " ";
   transition-duration: 300ms;
   transition-property: all;
@@ -1619,7 +1619,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header__shrink .s-header__navbar {
-  background: #fff;
+  background: #fff; /* navbar scroll down */
 }
 
 .s-header__shrink .s-header__logo-img-default {
@@ -1632,11 +1632,11 @@ fieldset[disabled] .s-btn {
 
 /* Trigger Icon */
 .s-header__shrink.-is-open .s-header__trigger-icon {
-  background: #fff;
+  background: #fff; /* navbar menu icon when menu is open */
 }
 
 .s-header__shrink .s-header__trigger-icon {
-  background: #222324;
+  background: #222324; /* navbar menu icon when menu is not opened */
 }
 
 /*----------------------------------
@@ -2062,7 +2062,7 @@ fieldset[disabled] .s-btn {
   width: 1.875rem;
   height: 3rem;
   z-index: 9;
-  background: #13b1cd;
+  background: #c81a19; /* back to top arrow */
   border-radius: 3.125rem;
   text-align: center;
   transition-duration: 300ms;
@@ -2084,11 +2084,11 @@ fieldset[disabled] .s-btn {
 }
 
 .s-back-to-top:hover {
-  background: #fff;
+  background: #e68d8c; /* back to top arrow */
 }
 
 .s-back-to-top:hover:before {
-  color: #13b1cd;
+  color: #c81a19; /* back to top arrow */
 }
 
 .s-back-to-top:focus, .s-back-to-top:hover {

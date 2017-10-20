@@ -1255,6 +1255,11 @@
   border-radius: 50% !important;
 }
 
+.g-radius--circle-red {
+  border-radius: 50% !important;
+  background: #e68d8c;
+}
+
 .g-radius--left-4 {
   border-top-left-radius: 0.25rem !important;
   border-bottom-left-radius: 0.25rem !important;
@@ -7220,7 +7225,7 @@
 }
 
 .g-color--red {
-  color: #c54041 !important;
+  color: #c81a19 !important;
 }
 
 .g-color--gold {
