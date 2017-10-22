@@ -7284,6 +7284,10 @@
   color: #f5f8f9 !important;
 }
 
+.g-color--red-opacity {
+  color: rgba(200, 26, 25, 0.8) !important;
+}
+
 /* Hover Colors */
 .g-color--text[href]:hover {
   color: #13b1cd !important;
@@ -7364,6 +7368,11 @@
 
 .g-bg-color--primary-to-blueviolet-ltr {
   background-image: linear-gradient(145deg, rgba(19, 177, 205, 0.95) 0%, rgba(152, 119, 234, 0.95) 100%);
+  background-repeat: repeat-x;
+}
+
+.g-bg-color--red-gradient {
+  background-image: linear-gradient(145deg, rgba(152, 119, 234, 0.9) 0%, #c54041 100%);
   background-repeat: repeat-x;
 }
 
