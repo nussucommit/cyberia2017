@@ -626,6 +626,20 @@
   font-family: Playfair Display, serif !important;
 }
 
+.g-font-family--title {
+  font-family: 'Lora', serif !important;
+}
+
+.g-font-family--title-bold {
+  font-family: 'Lora', serif !important;
+  font-weight: bold;
+}
+
+.g-font-family--title-italic {
+  font-family: 'Lora', serif !important;
+  font-style: italic;
+}
+
 /*----------------------------------
   Font Weight
 ------------------------------------*/
