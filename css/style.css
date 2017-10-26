@@ -1345,7 +1345,8 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header-bg-overlay.-is-open {
-  background: rgba(34, 35, 36, 0.99); /* navbar menu colour change */
+  /* background: rgba(34, 35, 36, 0.99); */ /* navbar menu colour change */
+  background: rgba(34, 35, 36, 0.8); /* changed transparency of overlay */
   visibility: visible;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
@@ -1619,7 +1620,8 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header__shrink .s-header__navbar {
-  background: #fff; /* navbar scroll down */
+  background: #3a2727; /* navbar scroll down */
+  opacity: 0.95;
 }
 
 .s-header__shrink .s-header__logo-img-default {
