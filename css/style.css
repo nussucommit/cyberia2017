@@ -1620,8 +1620,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header__shrink .s-header__navbar {
-  background: #3a2727; /* navbar scroll down */
-  opacity: 0.95;
+  background: rgba(192, 176, 176, 0.9); /* navbar scroll down */
 }
 
 .s-header__shrink .s-header__logo-img-default {
@@ -1638,7 +1637,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header__shrink .s-header__trigger-icon {
-  background: #222324; /* navbar menu icon when menu is not opened */
+  background: #000; /* navbar menu icon when menu is not opened */
 }
 
 /*----------------------------------
