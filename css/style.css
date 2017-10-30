@@ -380,7 +380,7 @@ fieldset[disabled] .s-btn {
 
 .s-faq-grid__divider {
   display: inline-block;
-  border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.3);
+  border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.3); /* faq diver */
   margin: .3125rem 0;
 }
 
