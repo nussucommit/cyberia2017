@@ -20,7 +20,7 @@ $(window).load(function(){
   // Swiper Clients
   var swiper = new Swiper('.js__swiper-clients', {
     slidesPerView: 5,
-    spaceBetween: 50,
+    spaceBetween: 30,
     loop: true,
     breakpoints: {
       1024: {
